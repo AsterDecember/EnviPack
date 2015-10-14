@@ -1,0 +1,146 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+	background: #F9F9F9;
+	margin-bottom: 160px;
+ 	
+}
+#darkestLine{
+	width: 100%;
+	height: 30px;
+	background: #FBC02D;
+}
+
+.jumbotron{
+	background: #FFEB3B;
+}
+
+#jumbo{
+	height: 310px;
+}
+
+
+#imgPerfil{
+	height: 212px;
+	width: 212px;
+}
+/*.btn{
+	width: 100%;
+}*/
+
+#titulo{
+	/*border: 1px solid;*/
+	height: 261px;
+	text-align: center;
+	color: #FEF6EB;
+}
+.btnHeader{
+	position: relative;
+	top: 100px;
+	color: #FBC02D;
+	padding: 10px 100px;
+	margin: 0;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.btnHeader:hover, .btnHeader:visited, .btnHeader:focus{
+	text-decoration: none;
+	border-bottom: 2px solid #FEFEFE;
+	color: #FEFEFE;
+}
+
+
+
+
+
+#main{
+	position: relative;
+	top: 80px;
+	padding-bottom: 250px;
+}
+
+#thumb{
+	border: none;
+	box-shadow: none;
+	background: #F9F9F9;
+	/*height: 352px;
+	width: 292px;*/
+}
+
+@media(max-width:992px){
+	
+	#jumbo{
+		height: 250px;
+	}
+	
+	#imgPerfil{
+		display: none;
+	}
+
+	.btnHeader{
+		top: 40px;
+		padding: 10px 80px;
+	}
+}
+
+@media(max-width:768px){
+	#jumbo{
+		height: 200px;
+	}
+	
+	.btnHeader{
+		top: 40px;
+		padding: 10px 50px;
+	}
+}
+
+
+@media(max-width:620px){
+	
+	.btnHeader{
+		top: 10px;
+		padding: 10px 20px;
+	}
+
+	#jumbo h1{
+		display: none;
+	}
+
+	#jumbo{
+		height: 85px;
+	}
+}
+
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+   /*Set the fixed height of the footer here */
+  height: 160px;
+  background-color: #FFEB3B;
+}
+
+.footer .container{
+	position: relative;
+	top: 10px;
+}
+
+.contacto{
+	text-align: center;
+	color: #FEF6EB;
+	font-size: 18px;
+}
+
+#pContacto{
+	text-align: center;
+	color: #FEF6EB;
+	border-bottom: 2px solid #FEF6EB;
+	font-size: 22px;
+}
